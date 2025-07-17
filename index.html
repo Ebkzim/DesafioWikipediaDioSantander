@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia atividade Dio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-principal">
+        <div class="cabecalho">
+            <h1>Wikipedia</h1>
+            <p class="subtitulo">Wikipedia recriado em duas versões - Atual vs moderna</p>
+        </div>
+        
+       <div class="selecao-assuntos">
+    <div class="grid-assuntos">
+        <div class="card-assunto" data-assunto="historia">
+            <div class="icone-assunto">
+                <i class="fas fa-landmark"></i>
+            </div>
+            <h3>História</h3>
+            <p>Segunda Guerra Mundial</p>
+            <div class="opcoes-assunto">
+                <button class="botao-opcao atual" data-tipo="atual">Ver Atual</button>
+                <button class="botao-opcao moderno" data-tipo="moderno">Ver Moderno</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal-conteudo">
+                <div class="modal-cabecalho">
+                    <h2 id="modal-titulo">Título do Modal</h2>
+                    <button class="botao-fechar" id="botao-fechar">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-corpo" id="modal-corpo">
+                </div>
+            </div>
+        </div>
+        
+        <div class="rodape">
+            <p>&copy; 2025 - ebkzim@gmail.com</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
